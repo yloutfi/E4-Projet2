@@ -1,0 +1,382 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("");
+}
+
+#image-logo{
+    z-index: 15;
+    position: relative;
+    left: 59px;
+}
+
+.barre-navigation{
+    height: 6.5%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(127, 58, 192),rgb(96, 130, 194));
+    z-index: 1;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+}
+
+#boutonLogo{
+    width: auto;
+    margin-left: 1%;
+}
+
+.sousbarre{
+	height: 6.5%;
+    width: 100%;
+    opacity: 0%;
+    z-index: 0;
+    position:relative;
+}
+
+.bouton-navigation{
+    height: 100%;
+    width: 10%;
+    float:right;
+    text-decoration: none;
+    text-align: center;
+    font-family: Leelawadee UI;
+    color: white;
+    font-weight: bold;
+    transition: text-shadow 0.25s, border 0.25s;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.bouton-navigation:hover{
+    text-shadow: 0px 0px 8px black;
+    border-style: none none solid none;
+    border-color: blue;
+}
+
+.subbouton-navigation{
+    position: relative;
+    top: 17px;
+}
+
+#bouton-recherche-ami{
+    cursor: pointer;
+}
+
+#overlay-recherche{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0%;
+    top: 0px;
+    z-index: 50;
+    pointer-events: none;
+}
+
+#bulle-recherche{
+    position: fixed;
+    z-index: 51;
+    top: 38%;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    right: 25%;
+    opacity: 0%;
+    text-align: center;
+    pointer-events: none;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+
+#input-bulle-recherche{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+    text-align: center;
+    pointer-events: none;
+    background-color: transparent;
+    font-size: 600%;
+    outline: none;
+    letter-spacing: -2px;
+    color: gray;
+}
+
+/*Accueil*/
+.partie1{
+	font-size:30px;
+	height:200px;
+	width:98.4%;
+	background-color:Gray;
+	float:left;
+	border: 5px solid black;
+    padding: 10px;
+}
+
+.inscription{
+	background-color:orange;
+	font-size:25px;
+	height:450px;
+	width:47.848%;
+	float:left;
+	border: 5px solid black;
+    padding: 10px;
+}
+
+.connexion{
+	font-size:25px;
+	background-color:orange;
+	height:450px;
+	width:49%;
+	float: right;
+	border: 5px solid black;
+    padding: 10px;
+}
+
+/*Activites*/
+.activite1{	
+	background-color:orange;
+	font-size:22px;
+	height:210px;
+	width:13%;
+	float:left;
+	border: 5px solid black;
+	border-radius: 40px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 350px;
+    background-image: url("");
+}
+
+.activite2{	
+	background-color:orange;
+	font-size:22px;
+	height:210px;
+	width:13%;
+	float:left;
+	border: 5px solid black;
+	border-radius: 40px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    background-image: url("");
+}
+
+.activite3{	
+	background-color:orange;
+	font-size:22px;
+	height:210px;
+	width:13%;
+	float:left;
+	border: 5px solid black;
+	border-radius: 40px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 1px;
+    background-image: url("https://static.remove.bg/remove-bg-web/a72f919da581145bc8a52ac0c5d21f5c4741f367/assets/start_remove-79a4598a05a77ca999df1dcb434160994b6fde2c3e9101984fb1be0f16d0a74e.png");
+}
+
+.activite4{	
+	background-color:orange;
+	font-size:22px;
+	height:210px;
+	width:13%;
+	float:left;
+	border: 5px solid black;
+	border-radius: 40px;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 560px;
+    background-image: url("boomer-logo.png");
+}
+
+.activite5{	
+	background-color:orange;
+	font-size:22px;
+	height:210px;
+	width:13%;
+	float:left;
+	border: 5px solid black;
+	border-radius: 40px;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 55px;
+    background-image: url("");
+}
+
+
+/*Inscription*/
+.inscriptionCont{
+	box-shadow: 0px 0px 20px black;
+	font-family: Leelawadee UI;
+	background-color: lightgrey;
+	margin-left: 37%;
+	margin-right: 37%;
+	border-radius: 5px;
+	margin-top: 12%;
+	padding: 5px;
+	width: 25%;
+	text-align: center;
+}
+
+.submitInscription{
+	width: 25%;
+	margin-left: 37%;
+	margin-right: 37%;
+	height: 30px;
+	background-image: linear-gradient(to right, rgb(127, 58, 192),rgb(96, 130, 194));
+	margin-top: 10px;
+    border: none;
+    transition: box-shadow 0.2s;
+}
+
+.submitInscription:hover{
+    box-shadow: 0px 0px 10px rgb(96, 130, 194);
+}
+
+.informationInscription{
+    border: solid lightgrey;
+    outline: none;
+    transition: border 0.25s;
+    padding: 3px 3px;
+}
+
+.informationInscription:focus{
+    border: solid grey;
+}
+
+/*Compte*/
+
+#conteneurAmis{
+    z-index: 1;
+    width: 20%;
+    left: 2.5%;
+    margin: 0%;
+    height: 86.5%;
+    top: 10%;
+    position: absolute;
+    background-color: blue;
+}
+
+#menuAmis{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    background-color: white;
+    text-align: center;
+}
+
+.conteneurPrincipalCompte{
+    position: relative;
+	width: 50%;
+	height: 93.5%;
+	left: 25%;
+	right: 25%;
+	background-image: linear-gradient(to right, rgb(127, 58, 192),rgb(96, 130, 194));
+	box-shadow: 0px 0px 50px black;
+	z-index: 0;
+}
+
+.conteneurSecondaireCompte{
+	height: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 98%;
+	position: relative;
+	top: 1%;
+	background-color: lightgray;
+	z-index: 1;
+    display: inline-block;
+}
+
+.imageCompte{
+	position: relative;
+	border-radius: 100px;
+	overflow: hidden;
+	height: 150px;
+	width: 150px;
+	clip:rect(0, 0, 10px, 20px);
+	cursor: pointer;
+	z-index: 2;
+}
+
+.imageCentre{
+	position: absolute;
+	overflow: hidden;
+	height: 150;
+	z-index: 3;
+}
+
+#conteneurImageCompte{
+    cursor: pointer;
+}
+
+#formChangement{
+	pointer-events: none;
+	opacity: 0%;
+    position: absolute;
+    left: -100%;
+}
+
+#imgDrawing{
+	z-index: 10; 
+	position: relative; 
+	top: -92.5px; 
+	height: 25px; 
+	left: 62px; 
+	opacity: 0%;
+    cursor: pointer;
+}
+
+.imageETpinceau{
+    position: relative; 
+    left: 2%; 
+    top: 2%;
+    display: inline-block;
+    float: left;
+    margin-right:2%;
+}
+
+#contentInfo{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 2%;
+    height: 96%;
+    width: 78%;
+    right: 2%;
+    background-color: blue;
+    text-align: center;
+}
+
+.inputRedirectionAmi{
+    opacity: 0%;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+.formulaireRedirectionAmi{
+    margin: 0;
+}
+
+/*Salon*/
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 211px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+  }
+  
